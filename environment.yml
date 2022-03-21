@@ -1,0 +1,25 @@
+name: template
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - pip
+  - python
+  - h5py
+  - pandas
+  - geopandas
+  - jupyterlab
+  - notebook
+  - pytorch
+  - cudatoolkit=11.1
+  - tqdm
+  - pyarrow
+  - fastparquet
+  - scipy
+  - matplotlib
+  - seaborn
+  - opacus
+  - torchvision
